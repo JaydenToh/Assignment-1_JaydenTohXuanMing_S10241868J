@@ -148,3 +148,72 @@ section{
 .book-info {
   margin-top: 10px;
 }
+
+.book-image {
+  max-width: 50%; /* Adjust the width as needed */
+  height: auto;
+  grid-column: 1 / 2; /* Image spans the first column */
+  max-width: 100%;
+  height: auto;
+}
+
+.text-content {
+  max-width: 45%; /* Adjust the width as needed */
+}
+
+
+.book-section img {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.text-content h2 {
+  margin-bottom: 70px;
+}
+
+.text-content {
+  grid-column: 2 / 3; /* Text content spans the second column */
+  max-width: 100%;
+}
+
+.book-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+  gap: 20px; /* Adjust the gap between columns as needed */
+  background-color: #f2f2f2; /* Add a background color to the grid */
+  padding: 20px; /* Add padding to the grid */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 4%;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+}
+
+.describe {
+  margin-top: 5px;
+}
