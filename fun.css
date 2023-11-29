@@ -84,3 +84,67 @@ nav a:hover{
   height: auto;
 }
 
+.head1 {
+  margin-left: 150px;
+  display: flex;
+  justify-content: left;
+}
+
+h2 {
+  margin-top: 25px;
+  font-size:40px;
+
+}
+
+section{
+  margin-left: 150px;  /* Set a left margin of 20 pixels */
+  margin-right: 150px; /* Set a right margin of 20 pixels */
+}
+
+.book_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four items in a row */
+  gap: 32px; /* Add space between each item */
+  display: flex;
+  justify-content: center;
+}
+
+.book_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four items in a row */
+  gap: 16px;
+}
+
+/* Apply styles to the book image */
+.book-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 150px; /* Set a maximum height for the images */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book_display {
+  background: peachpuff;
+  padding: 32px;
+  border: 1px solid transparent;
+}
+
+.book_display:hover {
+  background: transparent;
+}
+
+.book-info * {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.book_display:last-child {
+  grid-column: span 3;
+}
+
+/* Style for the book info */
+.book-info {
+  margin-top: 10px;
+}
