@@ -1,4 +1,4 @@
-*{
+* {
   text-decoration: none;
   margin: 0;
 }
@@ -7,7 +7,27 @@ body {
   background: beige;
 }
 
-nav{
+.container1 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  /* Add styles for your main content here */
+}
+
+footer {
+  background-color: lightblue;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
+nav {
   background: lightblue;
   height: 80px;
 }
@@ -28,7 +48,7 @@ nav ul li {
   color: black;
 }
 
-nav a:hover{
+nav a:hover {
   color: orange;
 }
 
@@ -50,13 +70,14 @@ nav a:hover{
   margin-left: 10px;
 }
 
-.title{
+.title {
   text-align: right;
   display: flex;
   justify-content: space-evenly;
   margin-right: right;
   font-size: 80;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: blueviolet;
 }
 
@@ -67,7 +88,7 @@ nav a:hover{
   gap: 20px; /* Add space between each item */
   max-width: 500px; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the container */
-  margin-left: 130px;  
+  margin-left: 130px;
 }
 
 .container {
@@ -92,12 +113,11 @@ nav a:hover{
 
 h2 {
   margin-top: 25px;
-  font-size:40px;
-
+  font-size: 40px;
 }
 
-section{
-  margin-left: 150px;  /* Set a left margin of 20 pixels */
+section {
+  margin-left: 150px; /* Set a left margin of 20 pixels */
   margin-right: 150px; /* Set a right margin of 20 pixels */
 }
 
@@ -160,7 +180,6 @@ section{
 .text-content {
   max-width: 45%; /* Adjust the width as needed */
 }
-
 
 .book-section img {
   margin-left: 200px;
