@@ -109,12 +109,15 @@ nav .search_box input {
   align-items: center;
   gap: 20px; 
 }
-
+*/
 
 .body1 img {
-  margin-right: 55px;
+  height: 200px;
+  width: 300%;
+  max-height: 600px;
+  max-width: 400px;
 }
-*/
+
 
 .container {
   display: grid;
