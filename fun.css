@@ -17,45 +17,44 @@ h2 {
 
 /* HeaderFooter.html */
 
+li, a {
+  font-weight: 400;
+  font-size: 18px;
+  color: darkmagenta;
+  text-decoration: none;
+}
+
 nav {
-  background: lightblue;
-  height: 80px;
-}
-
-nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 30px 10%;
+  background-color: lightblue;
+  margin-bottom: 18px;
 }
 
-nav li {
-  margin: 20px;
+.logo {
+  cursor:pointer;
+  border-radius: 20px;
+  height: 70px;
+  width:100px;
 }
 
-nav ul li {
+.link {
+  list-style: none;
+}
+
+.link li {
   display: inline-block;
-  margin: 30px;
-  color: black;
+  padding: 0px 20px;
 }
 
-nav a:hover {
-  color: orange;
+.link li a {
+  transition: all 0.3 ease 0s;
 }
 
-nav .search_box {
-  display: flex;
-  margin: auto 0;
-  height: 35px;
-  line-height: 35px;
-}
-
-nav .search_box input {
-  border: none;
-  outline: none;
-  background: white;
-  height: 100%;
-  padding: 0 10px;
-  font-size: 15px;
+.link li a:hover {
+  color:orange;
 }
 
 /* Index.html */
@@ -81,7 +80,7 @@ nav .search_box input {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: black;
+  background-image: url(m9.jpg);
   margin-top: -18px;
   padding-bottom: 20px;
   margin-bottom: -20px;
@@ -128,6 +127,8 @@ nav .search_box input {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .body1 img {
