@@ -1,3 +1,5 @@
+/* login.html css */
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 * {
   margin: 0;
@@ -81,7 +83,6 @@ input:valid ~ label {
 .select label input {
   margin-right: 3px;
 }
-
 
 button {
   width: 100%;

@@ -1,3 +1,5 @@
+/*  Main Basic Page Css */
+
 * {
   text-decoration: none;
   margin: 0;
@@ -7,6 +9,13 @@
 body {
   background: beige;
 }
+
+h2 {
+  margin-top: 25px;
+  font-size: 40px;
+}
+
+/* HeaderFooter.html */
 
 nav {
   background: lightblue;
@@ -49,6 +58,7 @@ nav .search_box input {
   font-size: 15px;
 }
 
+/* Index.html */
 
 .right{
   display: flex;
@@ -65,6 +75,7 @@ nav .search_box input {
   flex-direction: column;
   min-height: 100vh;
 }
+
 .contain {
   display: flex;
   align-items: center;
@@ -75,6 +86,7 @@ nav .search_box input {
   padding-bottom: 20px;
   margin-bottom: -20px;
 }
+
 .contain img {
   border-radius: 35px;
   margin-left: 200px;
@@ -96,28 +108,12 @@ nav .search_box input {
   color: blueviolet;
 }
 
-/*
-.body1 {
-  display: flex;
-  flex-direction: row; 
-  justify-content: space-between; 
-
-.container {
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-  gap: 20px; 
-}
-*/
-
 .body1 img {
   height: 200px;
   width: 300%;
   max-height: 600px;
   max-width: 400px;
 }
-
 
 .container {
   display: grid;
@@ -140,8 +136,6 @@ nav .search_box input {
   border-radius: 10px; /* Adjust the border-radius as needed */
 }
 
-
-
 .contain {
   display: flex;
   flex-direction: column;
@@ -152,16 +146,7 @@ nav .search_box input {
   flex-direction: row;
 }
 
-.head1 {
-  margin-left: 150px;
-  display: flex;
-  justify-content: left;
-}
-
-h2 {
-  margin-top: 25px;
-  font-size: 40px;
-}
+/* Featured.html */
 
 section {
   margin-left: 150px; /* Set a left margin of 20 pixels */
@@ -254,6 +239,33 @@ section {
   align-items: center;
 }
 
+/* Orv.html */
+.book-section img {
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.text-content h2 {
+  margin-bottom: 70px;
+}
+
+.text-content {
+  grid-column: 2 / 3; /* Text content spans the second column */
+  max-width: 100%;
+}
+
+.book-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns, adjust as needed */
+  gap: 20px; /* Adjust the gap between columns as needed */
+  background-color: #f2f2f2; /* Add a background color to the grid */
+  padding: 20px; /* Add padding to the grid */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .custom-button {
   display: inline-block;
   padding: 10px 20px;
@@ -283,3 +295,5 @@ section {
 .describe {
   margin-top: 5px;
 }
+
+/* End */
