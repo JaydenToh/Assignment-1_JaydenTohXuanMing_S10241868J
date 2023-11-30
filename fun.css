@@ -49,6 +49,13 @@ nav .search_box input {
   font-size: 15px;
 }
 
+
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
+
 .body1 h2, .body1 p {
   text-align: right; /* Align text to the right */
 }
@@ -62,8 +69,11 @@ nav .search_box input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 600px; /* Adjust the maximum width as needed */
-  margin: 0 auto; /* Center the container */
+  width: 100%;
+  background-color: black;
+  margin-top: -18px;
+  padding-bottom: 20px;
+  margin-bottom: -20px;
 }
 .contain img {
   border-radius: 35px;
@@ -74,6 +84,7 @@ nav .search_box input {
   justify-content: space-evenly;
   margin-left: 10px;
 }
+
 .title {
   text-align: right;
   display: flex;
@@ -85,31 +96,57 @@ nav .search_box input {
   color: blueviolet;
 }
 
+/*
 .body1 {
-  .body1 {
-    display: flex;
-    flex-direction: row; /* Stack items vertically */
-    align-items: flex-end; /* Align items to the right side of the container */
-    text-align: right;
-    gap: 20px; /* Add space between each item */
-    max-width: 500px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the container */
-    margin-left: 130px;
-  }
-}
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between; 
 
 .container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: flex-end; /* Align items to the right side of the container */
-  gap: 20px; /* Add space between each item */
-  max-width: 500px; /* Adjust the maximum width as needed */
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
 }
 
-/* Apply styles to the image */
-.container img {
+
+.body1 img {
+  margin-right: 55px;
+}
+*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns for each section */
+  gap: 20px; /* Adjust the gap between sections */
+  justify-content: center;
+  align-items: center;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.body1 img {
   max-width: 100%;
   height: auto;
+  border-radius: 10px; /* Adjust the border-radius as needed */
+}
+
+
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.thingsinside {
+  display: flex;
+  flex-direction: row;
 }
 
 .head1 {
