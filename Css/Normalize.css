@@ -91,7 +91,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-image: url(Image/m9.jpg);
+  background-image: url(../Images/m9.jpg);
   margin-top: -18px;
   padding-bottom: 20px;
   margin-bottom: -20px;
@@ -164,6 +164,23 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four items in a row */
   gap: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
 }
 
 /* Apply styles to the book image */
@@ -241,6 +258,7 @@ section {
   align-items: center;
 }
 
+
 /* Orv.html */
 .book-section img {
   margin-left: 200px;
@@ -303,7 +321,7 @@ section {
   border-radius: 5px;
   transition: background-color 0.3s ease;
   margin-bottom: 30%;
-  margin-left: 76px;
+  margin-left: 68px;
 }
 
 .custom-button-add:hover {

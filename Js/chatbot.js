@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Clear the textarea after sending the user message
             messageInput.value = '';
 
-            // Simulate a delayed bot response
+            // delayed bot response
             setTimeout(function () {
                 var botResponse = generateBotResponse(userMessage);
 
@@ -41,8 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function generateBotResponse(userMessage) {
-        // Simulate a bot retrieving information and generating a response
-        // You can customize this function based on your bot's behavior
+        // change the userMessage response to change what message the bot gives
         if (userMessage.toLowerCase().includes('hello')) {
             return "Hello! How can I assist you?";
         } else if (userMessage.toLowerCase().includes('information')) {
