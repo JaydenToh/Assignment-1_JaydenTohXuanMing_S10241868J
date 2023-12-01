@@ -71,3 +71,8 @@
     outline: none;
     resize: none;
 }
+
+.chat-input span {
+    align-self: flex-end;
+    cursor: pointer;
+}
