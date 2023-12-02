@@ -41,3 +41,8 @@ C. W. D. (2023, September 5). Animated Login Form Using HTML & CSS || Code With 
 https://youtu.be/oLgtucwjVII?list=LL
 
 ChatGPT:
+https://chat.openai.com/c/044a7265-ac0e-4124-97be-6c2f8bf9136b
+https://chat.openai.com/c/1aaead77-af89-4ff5-b367-1ecd3b63ecc6
+https://chat.openai.com/c/4ba94042-7b06-4dfe-a700-5aca0dd78bc0
+https://chat.openai.com/c/2d60356d-282e-4dd9-b17b-f1c66969514e
+https://chat.openai.com/c/3bd6ac5b-a6d8-4d83-935f-a6f0d06b9bd1
