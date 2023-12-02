@@ -48,10 +48,6 @@ nav {
   padding: 0px 10px;
 }
 
-.link li a {
-  transition: all 0.3 ease 0s;
-}
-
 .link li a:hover {
   color:orange;
 }
