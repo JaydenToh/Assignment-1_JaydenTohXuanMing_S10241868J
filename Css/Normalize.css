@@ -4,15 +4,18 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background: beige;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h2 {
   margin-top: 25px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* HeaderFooter.html */
@@ -28,25 +31,21 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 5%;
   background-color: lightblue;
   margin-bottom: 18px;
 }
 
 .logo {
-  cursor:pointer;
+  cursor: pointer;
   border-radius: 20px;
   height: 70px;
-  width:100px;
-}
-
-.link {
-  list-style: none;
+  width: 100px;
 }
 
 .link li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .link li a {
@@ -75,9 +74,13 @@ footer {
   flex-direction: column;
 }
 
+.right p {
+  margin-top: 20px;
+}
+
 
 .body1 h2, .body1 p {
-  text-align: right; /* Align text to the right */
+  text-align: right; /* Align text to right */
 }
 
 .container1 {
@@ -93,28 +96,15 @@ footer {
   width: 100%;
   background-color: aquamarine;
   margin-top: -18px;
-  padding-bottom: 20px;
   margin-bottom: -20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
-  text-align: right;
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: right;
-  font-size: 80px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-size: 50px;
   color: blueviolet;
-  font-weight: bold;
-}
-
-.body1 img {
-  height: 200px;
-  width: 300%;
-  max-height: 600px;
-  max-width: 400px;
-  margin-top: 20px;
 }
 
 .container {
@@ -130,19 +120,31 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .body1 img {
   max-width: 100%;
   height: auto;
   border-radius: 10px; /* Adjust the border-radius as needed */
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  margin-top: 20px;
 }
 
-.contain {
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 800px) {
+  .body1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    background-color: greenyellow;
+  }
 }
 
 /* Featured.html */
@@ -152,18 +154,12 @@ section {
   margin-right: 150px; /* Set a right margin of 20 pixels */
 }
 
-.book_container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Four items in a row */
+.book_container { 
   gap: 32px; /* Add space between each item */
   display: flex;
   justify-content: center;
-}
-
-.book_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Four items in a row */
-  gap: 16px;
 }
 
 table {
@@ -183,7 +179,6 @@ th {
   color: white;
 }
 
-/* Apply styles to the book image */
 .book-image img {
   max-width: 100%;
   height: auto;
@@ -258,8 +253,49 @@ th {
   align-items: center;
 }
 
+.custom-button-add {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 30%;
+  margin-left: 70px;
+}
 
-/* Orv.html */
+@media screen and (max-width: 1300px) {
+  .book_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .book-section {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .custom-button-add {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .book_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .book-section {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}
+
+/* Orv.html TowerOfGod.html*/
 .book-section img {
   margin-left: 200px;
   margin-top: 40px;
@@ -307,23 +343,6 @@ th {
   color: #fff;
 }
 
-.custom-button-add {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  background-color: #3498db;
-  color: #fff;
-  border: 2px solid #3498db;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin-bottom: 30%;
-  margin-left: 68px;
-}
-
 .custom-button-add:hover {
   background-color: #2980b9;
   color: #fff;
@@ -336,6 +355,23 @@ th {
 
 .describe {
   margin-top: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+  .book-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  .book-section img {
+    margin-left: 0;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .custom-button {
+    margin-bottom: 10px;
+  }
 }
 
 /* End */

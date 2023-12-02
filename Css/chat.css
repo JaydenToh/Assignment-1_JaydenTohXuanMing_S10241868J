@@ -76,3 +76,10 @@
     align-self: flex-end;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .chatbot {
+        margin-right: 50px;
+        width: auto;
+    }
+}
