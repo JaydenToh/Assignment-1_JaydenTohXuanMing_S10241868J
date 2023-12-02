@@ -1,9 +1,10 @@
  Assignment-1_JaydenTohXuanMing_S10241868J
 WireFrames Website Images:
-![image](https://github.com/JaydenToh/Assignment-1_JaydenTohXuanMing_S10241868J/assets/149983717/03930600-c397-4ea4-8c35-cfddbcbdacfb)
+![Website](https://github.com/JaydenToh/Assignment-1_JaydenTohXuanMing_S10241868J/assets/149983717/f9602a9d-03ae-4db1-b8b7-a0cd340e3be3)
 
 Wireframes Mobile Images:
-![image](https://github.com/JaydenToh/Assignment-1_JaydenTohXuanMing_S10241868J/assets/149983717/492b9f95-c66b-4d14-9bd3-6b57ee51ad0d)
+![Uploading image.png…]()
+
 
 
 For my website, I based my ideas on the fact that I used all the frequently book advertising website and see how their website functions. While doing research, I focus on what could be possibly done during the time period I had
