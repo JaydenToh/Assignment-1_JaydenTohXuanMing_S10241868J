@@ -44,10 +44,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // change the userMessage response to change what message the bot gives
         if (userMessage.toLowerCase().includes('hello')) {
             return "Hello! How can I assist you?";
-        } else if (userMessage.toLowerCase().includes('information')) {
+        } else if (userMessage.toLowerCase().includes('I need information on books')) {
             return "Sure, here is some information...";
         } else {
-            return "I'm sorry, I didn't understand that. Can you please clarify?";
+            return "Sorry, can you repeat yourself?";
         }
     }
 });
